@@ -40,7 +40,7 @@ function App() {
           }}
         >
           <header className="flex flex-row justify-between mb-4">
-            <img src={logo} width="100" height="50" />
+            <img src={logo} width="100" height="50" alt="logo" />
             <div className="w-20 bg-white p-1 rounded-full">
               <p className="text-inherit text-center text-base font-medium">
                 Virtual
@@ -73,7 +73,7 @@ function App() {
 
           <div className="flex flex-row justify-between mb-4">
             <p className="text-lg	font-medium text-white">ZIP {MOCK_DATA.zip}</p>
-            <img src={visa} width="50" height="18" />
+            <img src={visa} width="50" height="18" alt="visa logo" />
           </div>
         </div>
       </div>
