@@ -2,7 +2,6 @@ import { useState } from "react";
 // Assets
 import logo from "./assets/logo.svg";
 import visa from "./assets/visa.svg";
-import backgroundImage from "./assets/backgroundImage.png";
 
 const MOCK_DATA = {
   number: "1232222344321732",
@@ -33,12 +32,7 @@ function App() {
   return (
     <main class="min-h-screen mt-10">
       <div class="flex justify-center items-center">
-        <div
-          className="w-96	h-64 p-4 rounded-lg"
-          style={{
-            backgroundImage: `url(${backgroundImage})`,
-          }}
-        >
+        <div className="w-96	h-64 p-4 rounded-lg" id="cardBackground">
           <header className="flex flex-row justify-between mb-4">
             <img src={logo} width="100" height="50" alt="logo" />
             <div className="w-20 bg-white p-1 rounded-full">

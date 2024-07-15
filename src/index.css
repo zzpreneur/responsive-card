@@ -15,3 +15,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#cardBackground {
+  background-image: url("./assets/backgroundImage.png");
+}
